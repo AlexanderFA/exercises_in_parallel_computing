@@ -13,7 +13,7 @@ Usage:
 #### Distributing the sum function between threads and final summation in a public variable using "reduction"
 Usage: `g++-14 -fopenmp lab2-5.cpp -o whatevername && ./whatevername`
 
-## Lab 3 - Parallel matrix multiplication.
+## Lab 3 - Parallel matrix multiplication
 ### Auto-scheduling of computing load dependency on resources availability
 #### Keywords: "schedule", "section"
 Usage `g++-14 lab3-8.cpp -o whatevername && ./whatevername`
@@ -26,3 +26,6 @@ Usage `g++-14 lab3-8.cpp -o whatevername && ./whatevername`
 ## Lab 4 - MPI. Multiprocessing computations
 #### Keywords: MPI_Init, MPI_Comm_rank, MPI_Comm_size, MPI_Finalize
 Usage: `mpicc -g0 -o whatever main.c && mpirun -n 10 ./whatever`
+
+## Lab 5 - MPI. Communication among processes using different methods
+#### Keywords: MPI_Send, MPI_Recv, MPI_Sendrecv. Communications schemes: Baton, Master-Slave, Ring shift, Each-to-Each
