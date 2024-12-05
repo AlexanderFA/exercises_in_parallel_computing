@@ -7,12 +7,12 @@ import (
 
 func printThreadInfo(threadNum int, totalThreads int, wg *sync.WaitGroup) {
 	defer wg.Done()
-	fmt.Printf("I am %d thread from %d threads!\n", threadNum, totalThreads)
+	fmt.Printf("I am goroutine №%d from %d groutines!\n", threadNum, totalThreads)
 }
 
 func Threadinfo() {
 	var k int
-	fmt.Println("Enter the number of threads:")
+	fmt.Println("Enter the number of groutines:")
 	fmt.Scan(&k)
 
 	var wg sync.WaitGroup
