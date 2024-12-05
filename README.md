@@ -15,7 +15,7 @@ Usage: `g++-14 -fopenmp lab2-5.cpp -o whatevername && ./whatevername`
 
 ## Lab 3 - Parallel matrix multiplication
 ### Auto-scheduling of computing load dependency on resources availability
-#### Keywords: "schedule", "section"
+#### __Keywords__: "schedule", "section"
 Usage `g++-14 lab3-8.cpp -o whatevername && ./whatevername`
 <details>
   <summary>Click to see example</summary>
@@ -23,9 +23,20 @@ Usage `g++-14 lab3-8.cpp -o whatevername && ./whatevername`
   <img src="lab3/task8/check.png" alt="Check" />
 </details>
 
-## Lab 4 - MPI. Multiprocessing computations
-#### Keywords: MPI_Init, MPI_Comm_rank, MPI_Comm_size, MPI_Finalize
+## Lab 4 - MPI (Message Passing Interface). Multiprocessing computations
+#### __Keywords__: MPI_Init, MPI_Comm_rank, MPI_Comm_size, MPI_Finalize
 Usage: `mpicc -g0 -o whatever main.c && mpirun -n 10 ./whatever`
+If you wish to run it on cluster of machines, you should use `mpirun -np 10 --host node1,node2,node3,node4 ./whatever` or you can specify a file which contains list of host machines, even with amount of processes for each one
 
-## Lab 5 - MPI. Communication among processes using different methods
-#### Keywords: MPI_Send, MPI_Recv, MPI_Sendrecv. Communications schemes: Baton, Master-Slave, Ring shift, Each-to-Each
+## Lab 5 - MPI Communication Methods
+### Exploring MPI_Send, MPI_Recv, and MPI_Sendrecv with Different Communication Schemes
+#### __Keywords__: MPI_Send, MPI_Recv, MPI_Sendrecv. Communication schemes: Baton, Master-Worker, Ring, Each-to-Each
+
+## Lab 6 - MPI. Broadcast communications. Distributing blocks of data
+### Number of occurrences of all characters present in a string
+### Matrix Multiplication using MPI broadcasting
+#### __Keywords__: MPI_Bcast, MPI_Reduce, MPI_Scatter, MPI_Gather, MPI_Datatype, MPI_Comm, MPI_CHAR, MPI_Op, MPI_MAX, MPI_MIN, MPI_SUM, MPI_PROD
+<details>
+  <summary>Click to see example</summary>
+  <img src="lab6/task19/result.png" alt="Demonstration of MPI matrix multiplication" />
+</details>
