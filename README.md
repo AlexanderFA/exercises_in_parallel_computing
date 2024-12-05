@@ -1,3 +1,4 @@
+# These program examples demonstrate parallel computing using tools such as goroutines in Go, OpenMP, MPI, and their hybrid implementations in both C and C++, as well as GPU computing with CUDA.
 ## Lab 1 - Hello world with multithreading
 Implemented in GOlang (with goroutines) and C++ with OpenMP
 
@@ -33,10 +34,15 @@ If you wish to run it on cluster of machines, you should use `mpirun -np 10 --ho
 #### __Keywords__: MPI_Send, MPI_Recv, MPI_Sendrecv. Communication schemes: Baton, Master-Worker, Ring, Each-to-Each
 
 ## Lab 6 - MPI. Broadcast communications. Distributing blocks of data
-### Number of occurrences of all characters present in a string
-### Matrix Multiplication using MPI broadcasting
 #### __Keywords__: MPI_Bcast, MPI_Reduce, MPI_Scatter, MPI_Gather, MPI_Datatype, MPI_Comm, MPI_CHAR, MPI_Op, MPI_MAX, MPI_MIN, MPI_SUM, MPI_PROD
+1. Number of occurrences of all characters present in a string
+2. Matrix Multiplication using MPI broadcasting
 <details>
   <summary>Click to see example</summary>
   <img src="lab6/task19/result.png" alt="Demonstration of MPI matrix multiplication" />
 </details>
+
+## Lab 7 - MPI + OpenMP combination.
+#### __Keywords__: MPI_Bcast, omp parallel.
+Work contains examples of combination of the mentioned technologies. Lab7_2 shows how number Pi could be effectively calculated with MPI + OpenMP approaches
+
