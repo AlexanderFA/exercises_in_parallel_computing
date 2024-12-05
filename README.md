@@ -49,3 +49,8 @@ Contains examples of combination of the mentioned technologies. Lab7_2 shows how
   <summary>Click to see example</summary>
   <img src="lab7/lab7_2/pi_calculation.png" alt="Demonstration of MPI+OpenMP calculation of PI number" />
 </details>
+
+## Lab 8 - CUDA and ACC. Calculating PI number and Matrix multiplication.
+#### __Keywords__: CUDA, OpenACC, acc parallel loop reduction
+In the given examples, I used CUDA and OpenACC to demonstrate the difference in code complexity for calculating the value of Pi. CUDA is significantly more efficient but requires more extensive coding, while OpenACC is more concise and intuitive.
+Additionally, there is an example of matrix multiplication implemented using the CUDA approach.
