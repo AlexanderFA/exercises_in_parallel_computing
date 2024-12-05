@@ -44,5 +44,8 @@ If you wish to run it on cluster of machines, you should use `mpirun -np 10 --ho
 
 ## Lab 7 - MPI + OpenMP combination.
 #### __Keywords__: MPI_Bcast, omp parallel.
-Work contains examples of combination of the mentioned technologies. Lab7_2 shows how number Pi could be effectively calculated with MPI + OpenMP approaches
-
+Contains examples of combination of the mentioned technologies. Lab7_2 shows how number Pi could be effectively calculated with MPI + OpenMP approaches
+<details>
+  <summary>Click to see example</summary>
+  <img src="lab7/lab7_2/pi_calculation.png" alt="Demonstration of MPI+OpenMP calculation of PI number" />
+</details>
